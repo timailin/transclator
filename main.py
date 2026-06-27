@@ -71,5 +71,7 @@ elif q==2:
         print("Не удалось распознать речь.")
     except sr.RequestError as e:             # - если нет интернета или API недоступен
         print(f"Ошибка сервиса: {e}")
+else:
+    print('branch test')
     
     
